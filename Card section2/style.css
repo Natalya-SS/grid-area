@@ -117,7 +117,7 @@ img {
     font-size: 1.3vw;
 }
 .discount-advantages span:hover {
-    letter-spacing: 0.1vw
+    letter-spacing: 0.1vw;
 }
 /*Card section*/
 .discount-card span:nth-of-type(1) {
