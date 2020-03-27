@@ -27,7 +27,7 @@ img {
     transition: 0.3s; 
 }
 .area-item-1 img:hover{
-    content: url("../Card section/img/logo-hover2.png");
+    content: url("../Card section2/img/logo-hover2.png");
     cursor: pointer;
     transform: scale(1.2);
 }
@@ -110,6 +110,7 @@ img {
 }
 .discount-advantages i:hover {
     color: rgb(233, 92, 169);
+    cursor: pointer;
 }
 .discount-advantages span {
     font-family: 'Caveat', cursive, Times, serif;
@@ -142,7 +143,13 @@ img {
     align-self: center;  
     margin-top: 8vw;
     box-shadow: 13px 13px 31px 0px rgba(0,0,0,0.65);
-    transform: rotate(-30deg)
+    transition: 0.3s;
+    transform: rotate(-30deg);
+}
+.discount-card img:nth-of-type(2):hover{
+    box-shadow: 5px 5px 15px 5px rgb(238, 84, 238);
+    cursor: pointer;
+    transform: scale(1.2) rotate(-30deg);
 }
  .area-item-1 {
     grid-area: logo;  
