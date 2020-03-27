@@ -186,6 +186,7 @@ button:hover {
     background-color: rgb(211, 47, 203);
     border: rgb(202, 39, 167) solid 0.1vw;
     transform: scale(1.1);
+    cursor: pointer;
 }
  .area-item-1 {
     grid-area: logo;  
